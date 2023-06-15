@@ -12,8 +12,8 @@ public class Main {
         System.out.println(getDiv(a, b));
         System.out.println(cube(a));
 //        Print doesn't work
-        System.out.println("Hello");
-
+        char symbol = '\u21d3';
+        System.out.print(symbol);
 
 
 
