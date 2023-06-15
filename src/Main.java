@@ -6,11 +6,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
-//        System.out.println(getSumm(a, b));
-//        System.out.println(getSub(a, b));
-//        System.out.println(getMul(a, b));
-//        System.out.println(getDiv(a, b));
-//        System.out.println(cube(a));
+        System.out.println(getSumm(a, b));
+        System.out.println(getSub(a, b));
+        System.out.println(getMul(a, b));
+        System.out.println(getDiv(a, b));
+        System.out.println(cube(a));
+//        Print doesn't work
         System.out.println("Hello");
 
 
