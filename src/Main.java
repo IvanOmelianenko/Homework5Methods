@@ -11,7 +11,7 @@ public class Main {
 //        System.out.println(getMul(a, b));
 //        System.out.println(getDiv(a, b));
 //        System.out.println(cube(a));
-
+        System.out.println("Hello");
 
 
 
