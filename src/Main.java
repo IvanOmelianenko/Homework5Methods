@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -6,18 +5,22 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
-//        System.out.println(getSumm(a, b));
-//        System.out.println(getSub(a, b));
-//        System.out.println(getMul(a, b));
-//        System.out.println(getDiv(a, b));
-//        System.out.println(cube(a));
-        System.out.println("Hello");
-
-
-
+        System.out.println(getSumm(a, b));
+        System.out.println(getSub(a, b));
+        System.out.println(getMul(a, b));
+        System.out.println(getDiv(a, b));
+        System.out.println(cube(a));
+//        Print doesn't work
+        char[] result = symbols();
+        for (char c : result) {
+            System.out.println(c);
+        }
 
     }
-
+    public static char[] symbols() {
+            char[] chars = {'\u3256', '\u9856', '\u7489'};
+            return chars;
+    }
 
 //    2nd task Overloading
     public static int getSum(int a) {
