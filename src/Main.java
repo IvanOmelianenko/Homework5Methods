@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -12,13 +11,16 @@ public class Main {
         System.out.println(getDiv(a, b));
         System.out.println(cube(a));
 //        Print doesn't work
-        char symbol = '\u21d3';
-        System.out.print(symbol);
-
-
+        char[] result = symbols();
+        for (char c : result) {
+            System.out.println(c);
+        }
 
     }
-
+    public static char[] symbols() {
+            char[] chars = {'\u3256', '\u9856', '\u7489'};
+            return chars;
+    }
 
 //    2nd task Overloading
     public static int getSum(int a) {
